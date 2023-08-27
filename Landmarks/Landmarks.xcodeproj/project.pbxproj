@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0E2E672A9AFFDA0046D6B9 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0E2E662A9AFFDA0046D6B9 /* CategoryHome.swift */; };
 		1E12CD0C2A87EFD10016B8A0 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12CD0B2A87EFD10016B8A0 /* LandmarksApp.swift */; };
 		1E12CD0E2A87EFD10016B8A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12CD0D2A87EFD10016B8A0 /* ContentView.swift */; };
 		1E12CD102A87EFD30016B8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E12CD0F2A87EFD30016B8A0 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0E2E662A9AFFDA0046D6B9 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		1E12CD082A87EFD10016B8A0 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E12CD0B2A87EFD10016B8A0 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		1E12CD0D2A87EFD10016B8A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0E2E652A9AFFAF0046D6B9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1E0E2E662A9AFFDA0046D6B9 /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		1E12CCFF2A87EFD10016B8A0 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		1E12CD0A2A87EFD10016B8A0 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				1E0E2E652A9AFFAF0046D6B9 /* Categories */,
 				1E12CD0B2A87EFD10016B8A0 /* LandmarksApp.swift */,
 				1EDFE9D82A8BBE5900BEF229 /* Model */,
 				1EDFE9D72A8BBE3E00BEF229 /* Views */,
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E12CD0E2A87EFD10016B8A0 /* ContentView.swift in Sources */,
+				1E0E2E672A9AFFDA0046D6B9 /* CategoryHome.swift in Sources */,
 				1EFDBE9A2A9A3B5E0021E6C2 /* HikeGraph.swift in Sources */,
 				1E69A5422A911FA30063D582 /* Badge.swift in Sources */,
 				1E12CD1C2A8918750016B8A0 /* MapView.swift in Sources */,
